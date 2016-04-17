@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>rufus</groupId>
     <artifactId>lzstring4java</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
+
+    <name>LZ-String</name>
+    <description>Java port of LZ-based compression algorithm for JavaScript</description>
+    <url>https://github.com/rufushuang/lz-string4java</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>rufushuang</name>
+        </developer>
+        <developer>
+            <name>Alex Vayda</name>
+            <email>alexander.wajda@gmail.com</email>
+            <organization>Psyball</organization>
+            <organizationUrl>http://www.psyball.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:example/example-application.git</connection>
+        <developerConnection>scm:git:git@github.com:example/example-application.git</developerConnection>
+        <url>git@github.com:example/example-application.git</url>
+    </scm>
 
     <dependencies>
         <dependency>
@@ -45,6 +72,30 @@
                     <source>1.7</source>
                     <target>1.7</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
