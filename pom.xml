@@ -30,9 +30,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:example/example-application.git</connection>
-        <developerConnection>scm:git:git@github.com:example/example-application.git</developerConnection>
-        <url>git@github.com:example/example-application.git</url>
+        <connection>scm:git:git@github.com:wajda/lz-string4java.git</connection>
+        <developerConnection>scm:git:git@github.com:wajda/lz-string4java.git</developerConnection>
+        <url>git@github.com:wajda/lz-string4java.git</url>
     </scm>
 
     <dependencies>
