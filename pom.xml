@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>rufus</groupId>
+    <groupId>com.github.wajda</groupId>
     <artifactId>lzstring4java</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>LZ-String</name>
     <description>Java port of LZ-based compression algorithm for JavaScript</description>
-    <url>https://github.com/rufushuang/lz-string4java</url>
+    <url>https://github.com/wajda/lz-string4java</url>
     <licenses>
         <license>
             <name>MIT License</name>
