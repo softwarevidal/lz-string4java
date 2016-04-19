@@ -1,3 +1,26 @@
+tl;dr
+=========
+##### Getting started using Maven
+```
+<dependency>
+  <groupId>com.github.wajda</groupId>
+  <artifactId>lzstring4java</artifactId>
+  <version>0.1</version>
+</dependency>
+```
+
+##### Usage
+```
+    LZString.compressToBase64(str)
+    LZString.decompressFromBase64(str)
+    
+    LZString.compressToUTF16(str)
+    LZString.decompressFromUTF16(str)
+    
+    LZString.compressToEncodedURIComponent(str)
+    LZString.decompressFromEncodedURIComponent(String)
+```
+
 lz-string4java
 =========
 Port javascript lz-string in JAVA version. 
