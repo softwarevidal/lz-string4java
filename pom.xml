@@ -3,9 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.wajda</groupId>
-    <artifactId>lzstring4java</artifactId>
-    <version>0.1</version>
+    <groupId>com.github.softwarevidal</groupId>
+    <artifactId>lz-string4java</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>LZ-String</name>
@@ -30,21 +30,22 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:wajda/lz-string4java.git</connection>
-        <developerConnection>scm:git:git@github.com:wajda/lz-string4java.git</developerConnection>
-        <url>https://github.com/wajda/lz-string4java.git</url>
+        <connection>scm:git:git@github.com:softwarevidal/lz-string4java.git</connection>
+        <developerConnection>scm:git:git@github.com:softwarevidal/lz-string4java.git</developerConnection>
+        <url>https://github.com/softwarevidal/lz-string4java</url>
     </scm>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
+      <repository>
+         <id>vidal-3rd-party-releases</id>
+         <url>http://nexus.vidal.net/content/repositories/vidal-3rd-party-releases/</url>
+      </repository>
+      <snapshotRepository>
+         <id>vidal-snapshots</id>
+         <uniqueVersion>true</uniqueVersion>
+         <url>http://nexus.vidal.net/content/repositories/vidal-snapshots/</url>
+      </snapshotRepository>
+   </distributionManagement>
 
     <dependencies>
         <dependency>
